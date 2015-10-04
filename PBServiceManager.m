@@ -1,6 +1,5 @@
 //
-//  ServiceManager.m
-//  ByteClub
+//  PBServiceManager.m
 //
 //  Created by Parth Bhatt on 21/09/15.
 //  Copyright (c) 2015 Parth Bhatt. All rights reserved.
@@ -8,9 +7,9 @@
 // This is a webservice manager component which request the web and returns the error and response in completion block.
 //
 
-#import "ServiceManager.h"
+#import "PBServiceManager.h"
 
-@implementation ServiceManager
+@implementation PBServiceManager
 
 +(void)requestURL:(NSURL *)serviceURL responseCallback:(ResponseCallback)callback
 {

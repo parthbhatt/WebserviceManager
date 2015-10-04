@@ -1,5 +1,5 @@
 //
-//  ServiceManager.h
+//  PBServiceManager.h
 //
 //  Created by Parth Bhatt on 21/09/15.
 //  Copyright (c) 2015 Parth Bhatt. All rights reserved.
@@ -11,7 +11,7 @@
 
 typedef void (^ResponseCallback)(NSMutableDictionary *dictData, NSError *error);
 
-@interface ServiceManager : NSObject
+@interface PBServiceManager : NSObject
 {
     
 }
